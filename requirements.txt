@@ -1,0 +1,8 @@
+sentence-transformers
+psycopg[binary]
+pgvector
+h5py
+numpy
+openai
+kaggle
+kagglehub
