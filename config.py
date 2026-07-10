@@ -9,8 +9,8 @@ class RAGConfig:
     PINECONE_INDEX_NAME = "tm-5-692-1-v5" 
     PINECONE_ENV        = "us-east-1"
 
-    EMBEDDING_MODEL_NAME = "BAAI/bge-base-en-v1.5"    # 768-dim 
-    RERANKER_MODEL_NAME  = "BAAI/bge-reranker-large"
+    EMBEDDING_MODEL_NAME = "BAAI/bge-base-en-v1.5"
+    RERANKER_MODEL_NAME  = "cross-encoder/ms-marco-MiniLM-L-6-v2"  
 
     HYBRID_ALPHA  = 0.5
     TOP_K_HYBRID  = 30   
